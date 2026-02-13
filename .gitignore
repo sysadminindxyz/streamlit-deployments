@@ -17,3 +17,6 @@ Thumbs.db
 *.swp
 *.swo
 *.bak
+
+# Wiki STORM secrets
+**/wikis/**/run_config.json
