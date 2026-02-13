@@ -1,0 +1,19 @@
+# Secrets files - NEVER commit these
+**/.secrets.toml
+**/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak

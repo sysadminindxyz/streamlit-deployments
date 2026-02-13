@@ -1,0 +1,51 @@
+# Client Configuration Template
+# Copy this folder and rename it to your client ID (e.g., "netflix")
+# Then customize the settings below
+
+[client]
+id = "your_client_id"
+name = "Your Client Name"
+title = "Your Client Real-Time Intelligence Dashboard"
+contact_email = "support@yourclient.com"
+
+[branding]
+primary_color = "#1396cc"
+logo = "assets/logo.png"
+favicon = "assets/favicon.png"
+
+[snowflake]
+database = "YOUR_DATABASE"
+schema = "MART"
+warehouse = "STREAMLIT_WH"
+agent_name = "YOUR_DATABASE_MART_AGENT"
+
+[pages]
+# List of enabled pages (in display order)
+enabled = [
+    "overview",
+    "news",
+    "twitter",
+    "ai_summary",
+    "wiki",
+    "chatbot",
+    "threats",
+    "geo",
+]
+
+# Optional: Custom display names for pages
+# [pages.custom_names]
+# overview = "Dashboard"
+# news = "Media Coverage"
+
+[page_overview_widgets]
+# Widgets to show on the overview page (in display order)
+enabled = [
+    "top_issues",
+    "vulnerabilities",
+    "tweets",
+    "legislation",
+]
+
+[features]
+admin_enabled = true
+pdf_generation = true
